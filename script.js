@@ -2,7 +2,7 @@ const Modal = {
     open(){
         // abrir modal
         // Adicionar a classe active ao modal
-        document.querySelector('modal-overlay')
+        document.querySelector('.modal-overlay')
         .classList
         .add('active')
 
@@ -10,7 +10,7 @@ const Modal = {
     close(){
         //fechar modal
         //Remover a classe active do modal
-        document.querySelector('modal-overlay')
+        document.querySelector('.modal-overlay')
         .classList
         .remove('active')
     }
